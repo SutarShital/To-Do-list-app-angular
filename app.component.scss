@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;  
+}
+.list {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.remove-item {
+   margin-left: 16px;
+}
+
+.button-class {
+    background-color: #6161e9;
+    border: none;
+    border-radius: 16px;
+    margin-left: 16px;
+    width: 50px;
+}

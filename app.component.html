@@ -1,0 +1,19 @@
+<!-- <h1>To Do List App</h1>
+
+<div>
+  <input type="text" [(ngModel)]="toAddtext" >
+</div>
+<div>
+  <button (click)="add()">Add</button>
+</div>
+
+<div *ngFor="let list of localStorageGet;let i = index">{{list}} <span class="remove-item" (click)="removeItem(i)">✖</span></div> -->
+<div class="container">
+ <div>To Do List App</div>
+  
+</div>
+<div class="container" style="margin-left: 63px;margin-top:16px">
+  <input type="text"  [(ngModel)]="toAddtext">
+  <button (click)="add()" class="button-class">Add</button>
+ </div> 
+ <div *ngFor="let list of listData;let i = index" class="list">{{list}} <span class="remove-item" (click)="removeItem(i)">✖</span></div>
